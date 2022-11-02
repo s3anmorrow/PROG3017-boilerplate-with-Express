@@ -7,5 +7,12 @@
     "setup": "npm install --prefix ./api && npm install --prefix ./client"
   },
   "author": "Sean Morrow",
-  "license": "ISC"
+  "license": "ISC",
+  "jshintConfig": {
+    "esversion": 8,
+    "strict": "implied",
+    "devel": true,
+    "node": true,
+    "globals": {}
+  }
 }
